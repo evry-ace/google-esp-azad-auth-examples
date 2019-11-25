@@ -1,0 +1,87 @@
+{
+  "acceptMappedClaims": null,
+  "addIns": [],
+  "allowGuestsSignIn": null,
+  "allowPassthroughUsers": null,
+  "appId": "1bb98b06-903b-4794-926b-680047eaa335",
+  "appLogoUrl": null,
+  "appPermissions": null,
+  "appRoles": [],
+  "applicationTemplateId": null,
+  "availableToOtherTenants": false,
+  "deletionTimestamp": null,
+  "displayName": "test-func-gw",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": null,
+  "identifierUris": [
+    "api://1bb98b06-903b-4794-926b-680047eaa335"
+  ],
+  "informationalUrls": {
+    "marketing": null,
+    "privacy": null,
+    "support": null,
+    "termsOfService": null
+  },
+  "isDeviceOnlyAuthSupported": null,
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logo@odata.mediaEditLink": "directoryObjects/a2816ae0-8a45-4fc5-bd53-3fd9e574e4ef/Microsoft.DirectoryServices.Application/logo",
+  "logoUrl": null,
+  "logoutUrl": null,
+  "mainLogo@odata.mediaEditLink": "directoryObjects/a2816ae0-8a45-4fc5-bd53-3fd9e574e4ef/Microsoft.DirectoryServices.Application/mainLogo",
+  "oauth2AllowIdTokenImplicitFlow": true,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow stuff for the signed-in user.",
+      "adminConsentDisplayName": "Access to random data",
+      "id": "b53a0606-5034-4815-96b2-1cd195a9facf",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow stuff on your behalf.",
+      "userConsentDisplayName": "Access this new thing",
+      "value": "app.scope.random"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "objectId": "a2816ae0-8a45-4fc5-bd53-3fd9e574e4ef",
+  "objectType": "Application",
+  "odata.metadata": "https://graph.windows.net/b5f4b806-c100-4d92-ae81-12d7c2361c30/$metadata#directoryObjects/@Element",
+  "odata.type": "Microsoft.DirectoryServices.Application",
+  "optionalClaims": null,
+  "orgRestrictions": [],
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [],
+  "preAuthorizedApplications": null,
+  "publicClient": null,
+  "publisherDomain": "glennhenriksenevry.onmicrosoft.com",
+  "recordConsentConditions": null,
+  "replyUrls": [],
+  "requiredResourceAccess": [
+    {
+      "additionalProperties": null,
+      "resourceAccess": [
+        {
+          "additionalProperties": null,
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        },
+        {
+          "additionalProperties": null,
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ],
+      "resourceAppId": "00000002-0000-0000-c000-000000000000"
+    }
+  ],
+  "samlMetadataUrl": null,
+  "signInAudience": "AzureADMyOrg",
+  "tokenEncryptionKeyId": null,
+  "wwwHomepage": null
+}

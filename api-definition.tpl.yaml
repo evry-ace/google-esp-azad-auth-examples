@@ -1,0 +1,35 @@
+swagger: '2.0'
+info:
+  title: Test API
+  description: Google ESP gateway for Functions
+  version: 1.0.0
+host: _SVC_.endpoints._PROJECT_.cloud.goog
+schemes:
+  - https
+produces:
+  - application/json
+securityDefinitions:
+  azad:
+    authorizationUrl: "https://login.microsoftonline.com/_TENANT_ID_/oauth2/v2.0/authorize"
+    flow: "implicit"
+    type: "oauth2"
+    # The value below should be unique
+    x-google-issuer: "https://sts.windows.net/_TENANT_ID_/"
+    x-google-jwks_uri: "https://login.microsoftonline.com/_TENANT_ID_/discovery/v2.0/keys"
+    # Optional. Replace YOUR-CLIENT-ID with your client ID
+    x-google-audiences: "_AUDIENCE_"
+security:
+  - azad: []
+paths:
+  /data:
+    get:
+      summary: Example function
+      operationId: api-function
+      x-google-backend:
+        address: https://europe-west1-_PROJECT_.cloudfunctions.net/get_data
+      responses:
+        '200':
+          description: A successful response
+          schema:
+            type: string
+
